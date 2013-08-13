@@ -1,0 +1,6 @@
+<application desc="" id="nwapi" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services/>
+</application>

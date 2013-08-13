@@ -1,0 +1,5 @@
+<globals>
+    <attributes datatype="number" value="0" name="flag"/>
+    <attributes datatype="string" value="" name="gApiKey"/>
+    <attributes datatype="boolean" value="false" name="fromValidateKey"/>
+</globals>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="Network" id="Network">
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="frmFooter" displayname="Popup"/>
+    <container type="form" id="frmAPIKey" displayname="Form">
+        <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmAsyncSmaImgs" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="frmFooter" displayname="Popup"/>
+    <container type="form" id="frmAPIKey" displayname="Form">
+        <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmAsyncData" displayname="Form">
+        <component type="textbox2" id="txtFName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLName" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmAsyncSmaImgs" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <globalsequences/>
+    <skins/>
+</application>

@@ -9,6 +9,7 @@ function settingtheAPIKey(FormRef){
 	gApiKey = FormRef.txtAPIKey.text;
 	fromValidateKey = true;
 	if(gApiKey!=null && gApiKey!="" ){
+	
 	if(flag == 0)
 	{	
 		flag = 1;
@@ -108,12 +109,18 @@ function handleResponse(pplObj)
 
 function onReadyStateChange()
 {
-	kony.print("Entered ready state callback")
+	kony.print("Entered ready state callback");
 	
     if(this.readyState == constants.HTTP_READY_STATE_DONE )
 	{
-		kony.print("Response type is "+this.responseType)
-		kony.print("Type is "+typeof(this.response))
+		kony.print("Response type is "+this.responseType);
+		if((this.statusText) && this.statusText=="Forbidden"){
+		alert("Forbidden, API key is NOT valid. Please enter a valid key");
+		kony.application.dismissLoadingScreen();
+		return;
+		}
+
+
 		if (kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad")
 		{
 			if (this.response != null && this.response != "")
@@ -133,6 +140,7 @@ function onReadyStateChange()
 			}
 			else
 			{
+				
 				frmAsyncData.lblErrMsgAsyncData.text ="Sorry,No results found.";
 				kony.application.dismissLoadingScreen();
 				kony.timer.cancel("timerDismissLS");
@@ -142,8 +150,10 @@ function onReadyStateChange()
 		}
 		else
 		{
-			if (this.response != null)
+			
+			if (this.response != null && this.response != "")
 			{
+				
 				var jsonObj = this.response;
 				if(fromValidateKey==true){
 					if(jsonObj["@http_status_code"]==200){
@@ -158,6 +168,7 @@ function onReadyStateChange()
 			}
 			else
 			{
+				
 				frmAsyncData.lblErrMsgAsyncData.text ="Sorry,No results found.";		
 				kony.application.dismissLoadingScreen();	
 				kony.timer.cancel("timerDismissLS");

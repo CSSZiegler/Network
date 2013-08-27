@@ -190,9 +190,9 @@
     <attributes name="allowselfsignedcertificate" value="false"/>
     <attributes name="NFC" value="false"/>
     <attributes name="ID_CAP_MEDIALIB" value="true"/>
+    <attributes name="WP8_ID_CAP_MAP" value="true"/>
     <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="tcbb480basefontsize" value="17"/>
-    <attributes name="WP8_ID_CAP_MAP" value="true"/>
     <attributes name="tcandroid640basefontsize" value="19"/>
     <attributes name="desktopwebnoscriptmessage" value="To use this site, first enable your browser&#039;s JavaScript support and then refresh this page."/>
     <attributes name="tcbb360basefontsize" value="13"/>

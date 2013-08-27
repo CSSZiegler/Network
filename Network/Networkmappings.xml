@@ -5,6 +5,10 @@
     <container type="form" id="frmAPIKey" displayname="Form">
         <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
     </container>
+    <container type="form" id="frmAsyncData" displayname="Form">
+        <component type="textbox2" id="txtFName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLName" displayname="TextBox2"/>
+    </container>
     <container type="form" id="frmAsyncSmaImgs" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
@@ -13,13 +17,13 @@
     <container type="form" id="frmAPIKey" displayname="Form">
         <component type="textbox2" id="txtAPIKey" displayname="TextBox2"/>
     </container>
-    <container type="form" id="frmAsyncData" displayname="Form">
-        <component type="textbox2" id="txtFName" displayname="TextBox2"/>
-        <component type="textbox2" id="txtLName" displayname="TextBox2"/>
-    </container>
     <container type="form" id="frmAsyncSmaImgs" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="dialog" id="popUpAPIKeyinfo" displayname="Popup"/>
+    <container type="dialog" id="popUpSearchName" displayname="Popup">
+        <component type="textbox2" id="txtFName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLName" displayname="TextBox2"/>
+    </container>
     <globalsequences/>
     <skins/>
 </application>

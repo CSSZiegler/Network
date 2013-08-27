@@ -1387,7 +1387,7 @@
                 </evtSequence>
             </event_onPush>
             <groupCells>false</groupCells>
-            <screenLevelWidget>false</screenLevelWidget>
+            <screenLevelWidget>true</screenLevelWidget>
             <showScrollBars>false</showScrollBars>
             <onRowSelect>
                 <evtSequence>
@@ -1409,6 +1409,12 @@
             <behavior>0</behavior>
             <selection_indctrId>None</selection_indctrId>
             <render_seperator>true</render_seperator>
+            <c_viewConfig></c_viewConfig>
+            <rowItemWidth></rowItemWidth>
+            <coverflowDepth></coverflowDepth>
+            <coverflowAngle></coverflowAngle>
+            <containerHeightReference>SEGUI_HEIGHT_BY_FORM_REFERENCE</containerHeightReference>
+            <containerHeight></containerHeight>
             <iphone_executeonClosure>2</iphone_executeonClosure>
             <iphone_enableDictionary>false</iphone_enableDictionary>
             <iphone_npi>true</iphone_npi>
@@ -1448,6 +1454,7 @@
             <tooltip></tooltip>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
             <android_dockingHeader>false</android_dockingHeader>
+            <android_view>0</android_view>
             <blockedUISkin>Skin Defaults</blockedUISkin>
             <tc_border>3</tc_border>
             <tc_defaultSelection>true</tc_defaultSelection>

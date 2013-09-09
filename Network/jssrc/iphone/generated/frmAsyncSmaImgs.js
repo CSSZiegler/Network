@@ -108,11 +108,11 @@ function addWidgetsfrmAsyncSmaImgs() {
         "containerWeight": 77,
         "margin": [2, 0, 1, 1],
         "padding": [0, 0, 0, 0],
-        "vExpand": false,
-        "hExpand": true,
         "widgetAlignment": constants.WIDGET_ALIGN_TOP_LEFT,
         "marginInPixel": false,
         "paddingInPixel": true,
+        "vExpand": false,
+        "hExpand": true,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
     }, {});
     vboxInfo.add(
@@ -161,6 +161,7 @@ function frmAsyncSmaImgsGlobals() {
         "needsIndicatorDuringPostShow": true,
         "formTransparencyDuringPostShow": "100",
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
+        "bounces": true,
         "titleBar": true,
         "titleBarSkin": "sknTitleBarSampleApp",
         "titleBarConfig": {

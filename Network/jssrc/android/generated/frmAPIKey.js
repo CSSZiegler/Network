@@ -56,8 +56,9 @@ function addWidgetsfrmAPIKey() {
         "vExpand": false,
         "hExpand": true,
         "margin": [4, 0, 4, 0],
-        "padding": [1, 1, 1, 1],
+        "padding": [2, 1, 1, 1],
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 6
@@ -101,8 +102,24 @@ function addWidgetsfrmAPIKey() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {});
+    var lblHelp = new kony.ui.Label({
+        "id": "lblHelp",
+        "isVisible": true,
+        "text": "Note: You can also use \"samplekey\" as an API key. ",
+        "skin": "sknLblWhite"
+    }, {
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "vExpand": false,
+        "hExpand": true,
+        "margin": [4, 2, 4, 1],
+        "padding": [1, 1, 1, 1],
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "marginInPixel": false,
+        "paddingInPixel": false,
+        "containerWeight": 6
+    }, {});
     frmAPIKey.add(
-    lblAppKeyInfo, lblTextBoxHeader, txtAPIKey, btnCont, lnkNoAPIKey);
+    lblAppKeyInfo, lblTextBoxHeader, txtAPIKey, btnCont, lnkNoAPIKey, lblHelp);
 };
 
 function frmAPIKeyGlobals() {

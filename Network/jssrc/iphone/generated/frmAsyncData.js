@@ -44,6 +44,7 @@ function addWidgetsfrmAsyncData() {
         "margin": [4, 4, 4, 4],
         "padding": [1, 2, 1, 2],
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 6
@@ -75,6 +76,7 @@ function addWidgetsfrmAsyncData() {
         "margin": [4, 2, 4, 2],
         "padding": [1, 2, 1, 2],
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 6
@@ -169,6 +171,7 @@ function frmAsyncDataGlobals() {
         "needsIndicatorDuringPostShow": true,
         "formTransparencyDuringPostShow": "100",
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
+        "bounces": true,
         "titleBar": true,
         "titleBarSkin": "sknTitleBarSampleApp",
         "titleBarConfig": {

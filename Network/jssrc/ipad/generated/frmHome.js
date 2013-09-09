@@ -197,10 +197,14 @@ function frmHomeGlobals() {
         "needsIndicatorDuringPostShow": true,
         "formTransparencyDuringPostShow": "100",
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
+        "bounces": true,
         "titleBar": true,
         "titleBarSkin": "sknTitleBarSampleApp",
         "titleBarConfig": {
-            "renderTitleText": true
+            "renderTitleText": true,
+            "prevFormTitle": false,
+            "titleBarLeftSideView": "title",
+            "labelLeftSideView": "Back"
         },
         "footerOverlap": false,
         "headerOverlap": false,

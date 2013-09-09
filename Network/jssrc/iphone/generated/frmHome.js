@@ -176,6 +176,7 @@ function frmHomeGlobals() {
         "needsIndicatorDuringPostShow": true,
         "formTransparencyDuringPostShow": "100",
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
+        "bounces": true,
         "titleBar": true,
         "titleBarSkin": "sknTitleBarSampleApp",
         "titleBarConfig": {

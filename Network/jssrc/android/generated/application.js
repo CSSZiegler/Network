@@ -24,7 +24,7 @@ function appmiddlewareinvoker(inputParam, isBlocking, indicator, datasetID) {
     inputParam.appID = appConfig.appId;
     inputParam.appver = appConfig.appVersion;
     inputParam["channel"] = "rc";
-    inputParam["platformver"] = "5.0.QA_v201306040945";
+    inputParam["platformver"] = "5.5.beta_v201308312109";
     inputParam["platform"] = kony.os.deviceInfo().name;
     if (indicator) {
         inputParam["indicator"] = indicator;
@@ -55,7 +55,7 @@ function appmiddlewaresecureinvoker(inputParam, isBlocking, indicator, datasetID
     inputParam.appID = appConfig.appId;
     inputParam.appver = appConfig.appVersion;
     inputParam["channel"] = "rc";
-    inputParam["platformver"] = "5.0.QA_v201306040945";
+    inputParam["platformver"] = "5.5.beta_v201308312109";
     inputParam["platform"] = kony.os.deviceInfo().name;
     if (indicator) {
         inputParam["indicator"] = indicator;
@@ -86,7 +86,7 @@ function appmiddlewareinvokerasync(inputParam, callBack) {
     inputParam.appID = appConfig.appId;
     inputParam.appver = appConfig.appVersion;
     inputParam["channel"] = "rc";
-    inputParam["platformver"] = "5.0.QA_v201306040945";
+    inputParam["platformver"] = "5.5.beta_v201308312109";
     inputParam["platform"] = kony.os.deviceInfo().name;
     inputParam[sessionIdKey] = sessionID;
     if (globalhttpheaders) {
@@ -106,7 +106,7 @@ function appmiddlewaresecureinvokerasync(inputParam, callBack) {
     inputParam.appID = appConfig.appId;
     inputParam.appver = appConfig.appVersion;
     inputParam["channel"] = "rc";
-    inputParam["platformver"] = "5.0.QA_v201306040945";
+    inputParam["platformver"] = "5.5.beta_v201308312109";
     inputParam["platform"] = kony.os.deviceInfo().name;
     inputParam[sessionIdKey] = sessionID;
     if (globalhttpheaders) {

@@ -64,11 +64,11 @@ function addWidgetspopUpAPIKeyinfo() {
         "containerWeight": 100,
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
-        "vExpand": false,
-        "hExpand": true,
         "widgetAlignment": constants.WIDGET_ALIGN_TOP_LEFT,
         "marginInPixel": false,
         "paddingInPixel": false,
+        "vExpand": false,
+        "hExpand": true,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
     }, {});
     vbxPopupAPIInfo.add(

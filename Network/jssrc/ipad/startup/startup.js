@@ -1,6 +1,5 @@
 //startup.js file
 var globalhttpheaders = {};
-kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 var appConfig = {
     appId: "nwapi",
     appName: "NetworkAPI",
@@ -10,17 +9,17 @@ var appConfig = {
     serverPort: "8080",
     secureServerPort: null,
     isDebug: false,
-    middlewareContext: "middleware",
-    url: "http://10.10.6.125:8080/middleware/MWServlet",
-    secureurl: "https://10.10.6.125/middleware/MWServlet"
+    middlewareContext: "nwapi",
+    url: "https://kony475.konycloud.com/nwapi/MWServlet",
+    secureurl: "https://kony475.konycloud.com/nwapi/MWServlet"
 };
 sessionID = "";
 flag = 0;
 gApiKey = "";
 fromValidateKey = false;
-skinsInit();
 
 function appInit(params) {
+    skinsInit();
     initializehdrOne();
     initializefrmFooter();
     kony.application.setAppHeaders([hbox1928402615922]);
@@ -45,6 +44,7 @@ function loadResources() {
     globalhttpheaders = {};
     kony.theme.setCurrentTheme("KonyTheme", themeCallBack, themeCallBack);
 };
+kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
 loadResources();
 kony.print = function() {

@@ -71,11 +71,11 @@ function addWidgetspopUpAPIKeyinfo() {
         "containerWeight": 100,
         "margin": [1, 1, 1, 1],
         "padding": [0, 0, 0, 0],
-        "vExpand": false,
-        "hExpand": true,
         "widgetAlignment": constants.WIDGET_ALIGN_TOP_LEFT,
         "marginInPixel": true,
         "paddingInPixel": true,
+        "vExpand": false,
+        "hExpand": true,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
     }, {});
     vbxPopupAPIInfo.add(
@@ -116,6 +116,8 @@ function popUpAPIKeyinfoGlobals() {
         "layoutType": constants.CONTAINER_LAYOUT_BOX
     }, {
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
+        "bounces": true,
+        "titleBar": true,
         "footerOverlap": false,
         "headerOverlap": false,
         "inTransitionConfig": {

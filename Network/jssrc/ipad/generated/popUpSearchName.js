@@ -22,6 +22,7 @@ function addWidgetspopUpSearchName() {
         "margin": [2, 2, 2, 1],
         "padding": [1, 2, 1, 2],
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 6
@@ -53,6 +54,7 @@ function addWidgetspopUpSearchName() {
         "margin": [2, 1, 2, 2],
         "padding": [1, 2, 1, 2],
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 6
@@ -108,6 +110,8 @@ function popUpSearchNameGlobals() {
     }, {
         "popupStyle": constants.POPUP_TYPE_KONY_STYLE,
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
+        "bounces": true,
+        "titleBar": true,
         "footerOverlap": false,
         "headerOverlap": false,
         "inTransitionConfig": {

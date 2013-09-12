@@ -11,8 +11,10 @@ This Application will showcase the following features of Network APIs
 * Parsing the JSON object received for desired Information
 
 # Supported platforms:
-* iPhone
-* iPad
-* Android
-* Android tablet
+**Mobile**
+ * Android
+ * iPhone
 
+**Tablet** 
+ * Anroid
+ * iPad

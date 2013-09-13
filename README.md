@@ -16,5 +16,5 @@ This Application will showcase the following features of Network APIs
  * iPhone
 
 **Tablet** 
- * Anroid
+ * Android
  * iPad

@@ -14,6 +14,7 @@ This Application will showcase the following features of Network APIs
 **Mobile**
  * Android
  * iPhone
+ * BlackBerry 
 
 **Tablet** 
  * Android

@@ -5,10 +5,6 @@
     <container displayname="Form" id="frmAPIKey" type="form">
         <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmAsyncData" type="form">
-        <component displayname="TextBox2" id="txtFName" type="textbox2"/>
-        <component displayname="TextBox2" id="txtLName" type="textbox2"/>
-    </container>
     <container displayname="Form" id="frmAsyncSmaImgs" type="form"/>
     <container displayname="Form" id="frmHome" type="form"/>
     <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
@@ -17,13 +13,13 @@
     <container displayname="Form" id="frmAPIKey" type="form">
         <component displayname="TextBox2" id="txtAPIKey" type="textbox2"/>
     </container>
-    <container displayname="Form" id="frmAsyncSmaImgs" type="form"/>
-    <container displayname="Form" id="frmHome" type="form"/>
-    <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
-    <container displayname="Popup" id="popUpSearchName" type="dialog">
+    <container displayname="Form" id="frmAsyncData" type="form">
         <component displayname="TextBox2" id="txtFName" type="textbox2"/>
         <component displayname="TextBox2" id="txtLName" type="textbox2"/>
     </container>
+    <container displayname="Form" id="frmAsyncSmaImgs" type="form"/>
+    <container displayname="Form" id="frmHome" type="form"/>
+    <container displayname="Popup" id="popUpAPIKeyinfo" type="dialog"/>
     <globalsequences/>
     <skins/>
 </application>

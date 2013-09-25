@@ -10,8 +10,8 @@ function skinsInit() {
     lnkNormal = "lnkNormal";
     objSelect3DFoc = "objSelect3DFoc";
     sknTbx2FocusSampleApp = "sknTbx2FocusSampleApp";
-    sknPhoneNormalSampleApp = "sknPhoneNormalSampleApp";
     andskn = "andskn";
+    sknPhoneNormalSampleApp = "sknPhoneNormalSampleApp";
     sknFrmFormBgImg = "sknFrmFormBgImg";
     switchTwoColors = "switchTwoColors";
     sknLineWhite = "sknLineWhite";
@@ -56,8 +56,8 @@ function skinsInit() {
     sknListboxNormalSampleApp = "sknListboxNormalSampleApp";
     gal2Normal = "gal2Normal";
     imgGalNorma = "imgGalNorma";
-    hStripFocus = "hStripFocus";
     objSelect3D = "objSelect3D";
+    hStripFocus = "hStripFocus";
     scrollgray = "scrollgray";
     sknBtnNormalSampleApp = "sknBtnNormalSampleApp";
     sknCboxFocusSampleApp = "sknCboxFocusSampleApp";

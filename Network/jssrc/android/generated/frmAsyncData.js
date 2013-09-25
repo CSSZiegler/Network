@@ -30,7 +30,6 @@ function addWidgetsfrmAsyncData() {
         "text": null,
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
-        "placeholder": "First Name",
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
         "skin": "sknTbx2NormalSampleApp",
         "focusSkin": "sknTbx2FocusSampleApp",
@@ -47,6 +46,7 @@ function addWidgetsfrmAsyncData() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {
+        "placeholder": "First Name",
         "autoFilter": false,
         "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
     });
@@ -56,7 +56,6 @@ function addWidgetsfrmAsyncData() {
         "text": null,
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
-        "placeholder": "Last Name",
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
         "skin": "sknTbx2NormalSampleApp",
         "focusSkin": "sknTbx2FocusSampleApp",
@@ -73,6 +72,7 @@ function addWidgetsfrmAsyncData() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {
+        "placeholder": "Last Name",
         "autoFilter": false,
         "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
     });

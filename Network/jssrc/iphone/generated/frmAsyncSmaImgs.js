@@ -1,4 +1,8 @@
 //Form JS File
+function frmAsyncSmaImgs_frmAsyncSmaImgs_onDeviceMenu_seq0(eventobject, neworientation) {
+    frmAsyncData.show();
+};
+
 function addWidgetsfrmAsyncSmaImgs() {
     var segSmallbox = new kony.ui.Box({
         "id": "segSmallbox",
@@ -162,6 +166,7 @@ function frmAsyncSmaImgsGlobals() {
         "formTransparencyDuringPostShow": "100",
         "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_DEFAULT,
         "bounces": true,
+        "onDeviceMenu": frmAsyncSmaImgs_frmAsyncSmaImgs_onDeviceMenu_seq0,
         "titleBar": true,
         "titleBarSkin": "sknTitleBarSampleApp",
         "titleBarConfig": {

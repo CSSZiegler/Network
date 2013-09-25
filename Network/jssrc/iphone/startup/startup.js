@@ -5,13 +5,13 @@ var appConfig = {
     appName: "NetworkAPI",
     appVersion: "1.0.0",
     platformVersion: null,
-    serverIp: "10.10.6.125",
-    serverPort: "8080",
+    serverIp: null,
+    serverPort: null,
     secureServerPort: null,
     isDebug: false,
     middlewareContext: "nwapi",
-    url: "https://kony475.konycloud.com/nwapi/MWServlet",
-    secureurl: "https://kony475.konycloud.com/nwapi/MWServlet"
+    url: "https://konyb.qa-konycloud.com/nwapi/MWServlet",
+    secureurl: "https://konyb.qa-konycloud.com/nwapi/MWServlet"
 };
 sessionID = "";
 flag = 0;

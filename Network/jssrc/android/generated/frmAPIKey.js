@@ -46,7 +46,6 @@ function addWidgetsfrmAPIKey() {
         "text": null,
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
-        "placeholder": "Enter your API key",
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
         "skin": "sknTbx2NormalSampleApp",
         "focusSkin": "sknTbx2FocusSampleApp",
@@ -63,6 +62,7 @@ function addWidgetsfrmAPIKey() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {
+        "placeholder": "Enter your API key",
         "autoFilter": false,
         "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
     });

@@ -658,6 +658,17 @@
         <android_headerOverlap>false</android_headerOverlap>
         <android_onDeviceMenu>
             <evtSequence>
+                <actionList xsi:type="eventFormAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>1</type>
+                    <destType>0</destType>
+                    <navigateFrom>frmAsyncSmaImgs</navigateFrom>
+                    <navigateTo>frmAsyncData</navigateTo>
+                    <newOutputMapping/>
+                    <outputMapping/>
+                    <platform>0</platform>
+                </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>
@@ -2794,6 +2805,7 @@
                     <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                     <ipad_glossy_effect>0</ipad_glossy_effect>
                     <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                    <c_ToolTip></c_ToolTip>
                     <tooltip></tooltip>
                     <onDownloadComplete_root>
                         <evtSequence>
@@ -4118,6 +4130,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -4763,6 +4776,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>

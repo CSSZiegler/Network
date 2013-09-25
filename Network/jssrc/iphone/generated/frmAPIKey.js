@@ -51,7 +51,6 @@ function addWidgetsfrmAPIKey() {
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
         "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
-        "placeholder": "Enter your API key",
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
         "skin": "sknTbx2NormalSampleApp",
         "focusSkin": "sknTbx2FocusSampleApp"
@@ -67,6 +66,7 @@ function addWidgetsfrmAPIKey() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {
+        "placeholder": "Enter your API key",
         "pasteboardType": constants.TEXTBOX_PASTE_BOARD_TYPE_NO_PASTE_BOARD,
         "leftViewImage": null,
         "showClearButton": true,

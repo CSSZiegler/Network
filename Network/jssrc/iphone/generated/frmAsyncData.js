@@ -33,7 +33,6 @@ function addWidgetsfrmAsyncData() {
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
         "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
-        "placeholder": "First Name",
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
         "skin": "sknTbx2NormalSampleApp",
         "focusSkin": "sknTbx2FocusSampleApp"
@@ -49,6 +48,7 @@ function addWidgetsfrmAsyncData() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {
+        "placeholder": "First Name",
         "pasteboardType": constants.TEXTBOX_PASTE_BOARD_TYPE_NO_PASTE_BOARD,
         "leftViewImage": null,
         "showClearButton": true,
@@ -65,7 +65,6 @@ function addWidgetsfrmAsyncData() {
         "secureTextEntry": false,
         "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
         "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
-        "placeholder": "Last Name",
         "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
         "skin": "sknTbx2NormalSampleApp",
         "focusSkin": "sknTbx2FocusSampleApp"
@@ -81,6 +80,7 @@ function addWidgetsfrmAsyncData() {
         "paddingInPixel": false,
         "containerWeight": 6
     }, {
+        "placeholder": "Last Name",
         "pasteboardType": constants.TEXTBOX_PASTE_BOARD_TYPE_NO_PASTE_BOARD,
         "leftViewImage": null,
         "showClearButton": true,

@@ -1132,8 +1132,8 @@
                 <bb>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>4</top>
+                    <bottom>4</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -1144,7 +1144,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
                     <left>0</left>
@@ -2203,7 +2203,7 @@
                     <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <referenceWidth>100</referenceWidth>
-                    <referenceHeight>70</referenceHeight>
+                    <referenceHeight>80</referenceHeight>
                     <localeId>None</localeId>
                     <visible>true</visible>
                     <rendererData>

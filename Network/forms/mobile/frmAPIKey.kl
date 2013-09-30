@@ -428,6 +428,30 @@
         <headerId>None</headerId>
         <footerId>None</footerId>
         <title>Network API</title>
+        <onHide_root>
+            <evtSequence>
+                <actionList xsi:type="eventFunctionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>6</type>
+                    <functionName>None</functionName>
+                    <functionNameMap>
+                        <entry>
+                            <key>js</key>
+                            <value>onHidefrmAPIKey</value>
+                        </entry>
+                    </functionNameMap>
+                    <paramDataMap>
+                        <entry>
+                            <key>js</key>
+                            <value/>
+                        </entry>
+                    </paramDataMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </onHide_root>
         <init>
             <evtSequence>
                 <enabled>true</enabled>
@@ -1387,6 +1411,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -2032,6 +2057,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>
@@ -2695,6 +2721,7 @@
             </onClick>
             <autoCapitalize>TEXTBOX_AUTO_CAPITALIZE_NONE</autoCapitalize>
             <placeholder>Enter your API key</placeholder>
+            <placeholder_I18N></placeholder_I18N>
             <keyboard_type>0</keyboard_type>
             <onTextChange>
                 <evtSequence>
@@ -2762,6 +2789,18 @@
             <tc_autocorrect>false</tc_autocorrect>
             <tcPostOnclickJs></tcPostOnclickJs>
             <tcPreOnclickJs></tcPreOnclickJs>
+            <spa_onBeginEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onBeginEditing>
+            <spa_onEndEditing>
+                <evtSequence>
+                    <enabled>true</enabled>
+                    <seqname></seqname>
+                </evtSequence>
+            </spa_onEndEditing>
             <spa_autoComplete>false</spa_autoComplete>
             <bb_autoFilter>false</bb_autoFilter>
             <bb10_autoFilter>false</bb10_autoFilter>
@@ -2847,7 +2886,7 @@
                 <height>5</height>
             </sizePercent>
             <skinId>sknLinkWhite</skinId>
-            <focusSkinId>Skin Defaults</focusSkinId>
+            <focusSkinId>lnkNormal</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -3461,6 +3500,7 @@
             <ipad_pi_color>0</ipad_pi_color>
             <ipad_glow_effect>false</ipad_glow_effect>
             <ipadProgressIndicator>false</ipadProgressIndicator>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_content_align>4</bb_content_align>
             <j2me_content_align>4</j2me_content_align>
@@ -4192,6 +4232,7 @@
             <bb_content_align>1</bb_content_align>
             <bb_display_text>true</bb_display_text>
             <j2me_content_align>1</j2me_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <android_display_text>true</android_display_text>
             <android_pressed_skin>Skin Defaults</android_pressed_skin>
@@ -4864,6 +4905,7 @@
             <ipad_longtext>false</ipad_longtext>
             <ipad_wrapping>0</ipad_wrapping>
             <ipad_content_align>0</ipad_content_align>
+            <c_ToolTip></c_ToolTip>
             <tooltip></tooltip>
             <bb_longtext>false</bb_longtext>
             <bb_content_align>0</bb_content_align>

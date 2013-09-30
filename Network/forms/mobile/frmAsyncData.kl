@@ -452,6 +452,30 @@
                 <seqname></seqname>
             </evtSequence>
         </preShow_root>
+        <onHide_root>
+            <evtSequence>
+                <actionList xsi:type="eventFunctionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>6</type>
+                    <functionName>None</functionName>
+                    <functionNameMap>
+                        <entry>
+                            <key>js</key>
+                            <value>onHidefrmAsyncData</value>
+                        </entry>
+                    </functionNameMap>
+                    <paramDataMap>
+                        <entry>
+                            <key>js</key>
+                            <value/>
+                        </entry>
+                    </paramDataMap>
+                </actionList>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </onHide_root>
         <init>
             <evtSequence>
                 <enabled>true</enabled>

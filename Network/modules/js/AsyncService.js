@@ -209,7 +209,7 @@ function onClickSubmit()
 	if(flag == 0)
 	{	
 		flag = 1;
-		if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad"  )
+		if(kony.os.deviceInfo().name == "iPhone" || kony.os.deviceInfo().name == "iPad" )
 			kony.application.showLoadingScreen("loadingscreen","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,{shouldShowLabelInBottom :true,separatorHeight:30});
 		else
 			kony.application.showLoadingScreen("loadingscreen","Please wait...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true,null);
@@ -325,7 +325,32 @@ function httpResponseCodeValidate(ResultObj)
  * Purpose: To open pipl developer account page to login/register to get API key
  * Author: Kony  
 **********************************************************************************/
-	function url_APIKey(){
+function url_APIKey(){
 		kony.application.openURL("http://dev.pipl.com/apps/mykeys");
 		popUpAPIKeyinfo.dismiss();
-	} 
+}
+
+
+
+/********************************************************************************
+ * Function Name: onHidefrmAPIKey
+ * Purpose: To reset textbox of form frmAPIkey
+ * Author: Kony  
+**********************************************************************************/
+function onHidefrmAPIKey(){
+	frmAPIKey.txtAPIKey.text = "";
+} 
+
+
+
+/********************************************************************************
+ * Function Name: onHidefrmAsyncData
+ * Purpose: To reset textboxs of form frmAsyncData
+ * Author: Kony  
+**********************************************************************************/
+function onHidefrmAsyncData(){
+	frmAsyncData.txtFName.text = "";
+	frmAsyncData.txtLName.text = "";
+}	
+	
+	
